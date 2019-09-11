@@ -1,0 +1,23 @@
+.pricingPlan {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 1200px;
+  width: 1600px;
+  background-color: rgb(219, 219, 219);
+  list-style: none;
+}
+
+.item {
+  display: block;
+  width: 452px;
+  height: 700px;
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+.item:not(:last-child) {
+  margin-right: 30px;
+}
