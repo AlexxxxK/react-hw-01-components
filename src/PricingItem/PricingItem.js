@@ -2,21 +2,10 @@ import React from "react";
 import PropTypes from "prop-types";
 import styles from "./PricingItem.module.css";
 
-const inlineColorStyle = label => {
-  let color;
-  switch (label) {
-    case "Bronze":
-      color = `#dd7c4b`;
-      break;
-    case "Silver":
-      color = "#c0c0c0";
-      break;
-    case "Gold":
-      color = "#dda431";
-      break;
-    default:
-  }
-  return color;
+const inlineColorStyle = {
+  Bronze: "#dd7c4b",
+  Silver: "#c0c0c0",
+  Gold: "#dda431",
 };
 
 const PricingItem = ({ label, icon, capacity, price, description }) => {
@@ -28,7 +17,7 @@ const PricingItem = ({ label, icon, capacity, price, description }) => {
           backgroundImage: `url(${icon})`,
         }}
       />
-      <h2 className={styles.label} style={{ color: inlineColorStyle(label) }}>
+      <h2 className={styles.label} style={{ color: inlineColorStyle[label] }}>
         {label}
       </h2>
       <p className={styles.capacity}>{capacity} storage</p>
@@ -36,7 +25,7 @@ const PricingItem = ({ label, icon, capacity, price, description }) => {
       <p className={styles.price}>${price}/MO</p>
       <button
         className={styles.btn}
-        style={{ background: inlineColorStyle(label) }}
+        style={{ background: inlineColorStyle[label] }}
         type="button">
         Get Started
       </button>
