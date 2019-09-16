@@ -49,5 +49,6 @@
       "eslint --fix",
       "git add"
     ]
-  }
+  },
+  "homepage": "https://alexxxxk.github.io/react-hw-01-components-pricing-plan/"
 }
