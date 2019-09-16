@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/react-hw-01-components-pricing-plan/static/css/main.68eb2de5.chunk.css",
+    "main.js": "/react-hw-01-components-pricing-plan/static/js/main.868142ef.chunk.js",
+    "main.js.map": "/react-hw-01-components-pricing-plan/static/js/main.868142ef.chunk.js.map",
+    "runtime~main.js": "/react-hw-01-components-pricing-plan/static/js/runtime~main.3375ac80.js",
+    "runtime~main.js.map": "/react-hw-01-components-pricing-plan/static/js/runtime~main.3375ac80.js.map",
+    "static/js/2.74114385.chunk.js": "/react-hw-01-components-pricing-plan/static/js/2.74114385.chunk.js",
+    "static/js/2.74114385.chunk.js.map": "/react-hw-01-components-pricing-plan/static/js/2.74114385.chunk.js.map",
+    "index.html": "/react-hw-01-components-pricing-plan/index.html",
+    "precache-manifest.f369cf8b73c4b8a8bae3a7c0676981b5.js": "/react-hw-01-components-pricing-plan/precache-manifest.f369cf8b73c4b8a8bae3a7c0676981b5.js",
+    "service-worker.js": "/react-hw-01-components-pricing-plan/service-worker.js",
+    "static/css/main.68eb2de5.chunk.css.map": "/react-hw-01-components-pricing-plan/static/css/main.68eb2de5.chunk.css.map"
+  }
+}
